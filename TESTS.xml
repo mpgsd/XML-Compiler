@@ -1,0 +1,30 @@
+<LinearLayout
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   android:orientation="vertical"
+   android:id="30">
+
+ <RadioGroup
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:rb_number = "3"
+         android:checkedButton="2"
+         android:id="vertical">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option 1"
+            android:id="2"
+             />
+       
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option 2"
+            android:id="RB2"
+            />
+
+   </RadioGroup>
+
+         </LinearLayout>

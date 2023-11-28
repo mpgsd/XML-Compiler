@@ -1,0 +1,67 @@
+<LinearLayout
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   android:orientation="vertical"
+   android:id="30">
+
+  <TextView
+         android:layout_width="20"
+         android:layout_height="20"
+         android:text = "thick text"
+         android:id="TV1"
+         
+         android:textColor="vertical"/>
+
+  <RadioGroup
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:rb_number = "2"
+         android:checkedButton="2"
+         android:id="vertical">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option 1"
+            android:id="2"
+             />
+       
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option 2"
+            android:id="RB2"
+            />
+
+   </RadioGroup>
+
+   
+   
+   <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="image_name"
+            android:padding="50"/>
+
+        <Button 
+            android:text="vertical"
+            android:layout_height = "wrap_content"
+            android:layout_width = "match_parent"
+            android:padding="10"  
+            android:id="50"
+            
+            />
+        
+        <ProgressBar
+            android:layout_height = "17"
+            android:layout_width = "17"
+            android:id="10"
+            android:max="60"
+            android:progress="30" />
+
+    </RelativeLayout>
+</LinearLayout>
